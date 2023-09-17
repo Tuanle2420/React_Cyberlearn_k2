@@ -64,7 +64,9 @@ export default class PhoneDetail extends Component {
   renderPhone = () => {
     return this.phoneData.map((item, index) => {
       return (
-        <PhoneProps DataPhone={item} IndexProps={index} HandelDetail={this.handelDetail}/>
+        <div className="col-4" key={index}>
+          <PhoneProps DataPhone={item} HandelDetail={this.handelDetail}/>
+        </div>
       );
     });
   };

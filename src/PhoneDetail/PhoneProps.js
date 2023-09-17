@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export default class PhoneProps extends Component {
   render() {
     return (
-        <div className="col-4" key={this.props.IndexProps}>
+        
         <div className="card">
           <img
             style={{
@@ -20,7 +20,7 @@ export default class PhoneProps extends Component {
             <h4 className="card-title">{this.props.DataPhone.tenSP}</h4>
             <p className="card-text">
               <span style={{ fontWeight: "bold" }}>Giá bán:</span>{" "}
-              {this.props.DataPhone.giaBan} VND
+              {this.props.DataPhone.giaBan.toLocaleString()} VND
             </p>
             <button
               className="btn btn-success"
@@ -31,7 +31,7 @@ export default class PhoneProps extends Component {
             </button>
           </div>
         </div>
-      </div>
+   
     )
   }
 }
