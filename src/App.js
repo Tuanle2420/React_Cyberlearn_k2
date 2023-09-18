@@ -1,14 +1,20 @@
 // import BanGiay from "./BanGiay.js/BanGiay";
 // import DemoProps from "./Props/DemoProps";
 
-import PhoneDetail from "./PhoneDetail/PhoneDetail";
+import ParentComponent from "./RefComponent/ParentComponent";
+
+// import CarDetail from "./CarDetail.js/CarDetail";
+
+// import PhoneDetail from "./PhoneDetail/PhoneDetail";
 
 function App() {
   return (
     <div className="App">
       {/* <DemoProps/> */}
       {/* <BanGiay/> */}
-      <PhoneDetail/>
+      {/* <PhoneDetail/> */}
+      {/* <CarDetail/> */}
+      <ParentComponent/>
     </div>
   );
 }
