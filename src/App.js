@@ -1,7 +1,9 @@
 // import BanGiay from "./BanGiay.js/BanGiay";
 // import DemoProps from "./Props/DemoProps";
 
-import ParentComponent from "./RefComponent/ParentComponent";
+import CartEX from "./CartEX/CartEX";
+
+// import ParentComponent from "./RefComponent/ParentComponent";
 
 // import CarDetail from "./CarDetail.js/CarDetail";
 
@@ -14,7 +16,8 @@ function App() {
       {/* <BanGiay/> */}
       {/* <PhoneDetail/> */}
       {/* <CarDetail/> */}
-      <ParentComponent/>
+      {/* <ParentComponent/> */}
+      <CartEX/>
     </div>
   );
 }
